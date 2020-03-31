@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .ingredients {
@@ -7,6 +8,16 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+button {
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 4px;
+  background-color: #F4D03F;
+  font-size: 18px;
+  color: black;
+  margin: 30px 0 30px 0;
+  padding: 5px;
 }
 
 img {

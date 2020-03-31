@@ -36,6 +36,8 @@ class App extends React.Component {
   
   return (
     <div className="App">
+      <h1>To whom with wonder "what do we eat today?"</h1>
+      <p>Keep clicking this button to get inspiration for ingredient and the combination</p>
       <button onClick={() => this.getIndx()}>Get random ingredients</button>
       {this.state.veggieInd ? 
       <div className="ingredients">
