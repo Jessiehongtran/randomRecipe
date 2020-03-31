@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Randomize from './components/randomize';
 import {veggies, proteins, carbs, spices} from './data/ingredients';
 
 class App extends React.Component {
